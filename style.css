@@ -63,7 +63,7 @@ img {
     height: auto;
     z-index: -1;
     transform: translateX(-50%) translateY(-50%);
-    background: url('ESP_022607_1725.jpg') no-repeat;
+    background: url('ESP_022607_1725compressed.jpg') no-repeat;
     background-size: cover;
     transition: 1s opacity;
 }
