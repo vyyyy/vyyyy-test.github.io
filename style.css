@@ -244,10 +244,16 @@ hr {
   float: left;
   margin-top: 0;
  }
+ .timeline ul {
+  padding-bottom: 1px;
+ }
  .timeline ul li div {
   line-height: 150%;
   font-size: 108%;
   background: rgba(0,0,0,0.25);
+ }
+ #year2015text {
+  transform:translate(-105px, 35px);
  }
  #year2014text {
   transform:translate(-105px, 117px);
@@ -264,10 +270,16 @@ hr {
   float: left;
   margin-top: 0;
  }
+ .timeline ul {
+  padding-bottom: 1px;
+ }
  .timeline ul li div {
   line-height: 150%;
   font-size: 108%;
   background: rgba(0,0,0,0.25);
+ }
+ #year2015text {
+  transform:translate(-105px, 35px);
  }
  #year2014text {
   transform:translate(-105px, 117px);
@@ -283,25 +295,31 @@ hr {
   width: 100%;
   float: left;
   margin-top: 0;
+  overflow-x: hidden;
  }
  .timeline ul {
-  padding: 50px 10px;
+  padding: 30px 5px;
+  padding-bottom: 1px;
  }
  .timeline ul li div {
   width: 300px;
-  margin-left: 40px;
-  padding-left: 20px;
+  margin-left: 35px;
+  padding-left: 10px;
   line-height: 150%;
   font-size: 108%;
   background: rgba(0,0,0,0.25);
  }
  .githubtwitter {
-  left: 90px;
+  left: 75px;
+  top: 38px;
+ }
+ .twitter {
+  margin-left: 0px;
  }
  #year2015text {
-  transform:translate(-75px, 35px);
+  transform:translate(-60px, 35px);
  }
  #year2014text {
-  transform:translate(-75px, 117px);
+  transform:translate(-60px, 117px);
  }
 }
