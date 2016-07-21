@@ -294,6 +294,7 @@ hr {
  .blog {
   width: 100%;
   float: left;
+  padding-left: 10px;
   margin-top: 0;
  }
  .timeline ul {
