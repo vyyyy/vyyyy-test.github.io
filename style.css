@@ -293,8 +293,8 @@ hr {
  }
  .blog {
   width: 100%;
-  overflow-x: hidden;
-  max-width: auto;
+  max-height: 400px;
+  overflow-y: auto;
   float: left;
   margin-top: 0;
  }
