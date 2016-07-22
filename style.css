@@ -159,12 +159,7 @@ time {
  color: #c0e1f0;
 }
 
-.timehr {
- margin: 5px 0px 15px 0px;
- border: 1px solid #000;
-}
-
-/* year circle*/
+/* year circle */
 .circle {
  width: 60px;
  height: 60px;
