@@ -26,7 +26,7 @@ body {
 }
 
 h1 {
- margin-top: 20px;
+ margin-top: 15px;
  margin-left: 20px;
  font-size: 1.5rem;
  text-transform: uppercase;
@@ -197,7 +197,6 @@ time {
  margin-top: 50px;
  margin-right: 40px;
  font-family: 'Raleway', sans-serif;
- font-weight: 100;
  font-size: 1.2rem;
  color: white;
  background: rgba(0,0,0,0.4);
@@ -221,7 +220,9 @@ hr {
  padding: .4rem;
  margin: 1rem auto;
  margin-left: 20px;
+ font-family: 'Raleway', sans-serif;
  font-size: 1rem;
+ text-transform: uppercase;
  color: #c0e1f0;
  background: rgba(255,255,255,0.23);
  border: none;
