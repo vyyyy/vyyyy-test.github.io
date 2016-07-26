@@ -25,13 +25,18 @@ body {
  width: 60%;
 }
 
-h1 {
+h1, h2 {
  margin-top: 15px;
  margin-left: 20px;
  font-size: 1.5rem;
  text-transform: uppercase;
  letter-spacing: .1rem;
  color: #c0e1f0;
+}
+
+h2 {
+ letter-spacing: 0rem;
+ font-size: 1.35rem;
 }
 
 p {
@@ -199,7 +204,7 @@ time {
  font-family: 'Raleway', sans-serif;
  font-size: 1.2rem;
  color: white;
- background: rgba(0,0,0,0.4);
+ background: rgba(0,0,0,0.45);
  border: none;
 }
 
@@ -224,7 +229,7 @@ hr {
  font-size: 1rem;
  text-transform: uppercase;
  color: #c0e1f0;
- background: rgba(255,255,255,0.23);
+ background: rgba(255,255,255,0.2);
  border: none;
  border-radius: 3px;
  cursor: pointer;
