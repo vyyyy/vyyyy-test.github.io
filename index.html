@@ -23,11 +23,17 @@ left a name worth remembering" - Theodore Roosevelt. -->
   $( "#button1" ).click(function() {
   $( "#droppingout" ).show();
   $( "#learning" ).hide();
+  $('html,body').animate({
+        scrollTop: $("#droppingout").top},
+        'slow');
   return false;
   });
   $( "#button2" ).click(function() {
   $( "#learning" ).show();
   $( "#droppingout" ).hide();
+  $('html,body').animate({
+        scrollTop: $("#learning").top},
+        'slow');
   return false;
   });
  });
@@ -174,7 +180,7 @@ left a name worth remembering" - Theodore Roosevelt. -->
    <h1>Dropping out</h1>
    <hr/>
    <p>Hi, my name is Vyoma. If like me you’re a new programmer, then, I hope you find my list of learning resources useful.</p>
-   <p>I began my self-directed study into programming and machine learning 1.5 < x > 1.0 years ago and kept a record of what I’ve used since day one.</p> 
+   <p>I began my self-directed study into programming and machine learning 1.5 < x > 1.0 years ago and kept a record of what I’ve used since day one.</p>
    <p>I dropped out of a research degree from Sydney Medical School at The University of Sydney in 2014. <br> I lasted a couple of weeks. I wanted to become a scientist not an academic.</p>
    <p>Around this time, I started reading about machine learning and its application in <a href="http://www.cam.ac.uk/research/news/artificially-intelligent-robot-scientist-eve-could-boost-search-for-new-drugs" target="_blank" title="read article on eve"><span>science</span></a> and <a href="https://www.youtube.com/watch?v=t4kyRyKyOpo" target="_blank" title="watch Jeremy Howard's talk"><span>medicine</span></a> but I had no idea how this technology worked and I was code illiterate.</p>
    <p>So, I went back to square one learning to program and now I’m looking to the future. Yeah, I’m completely sold on Demis Hassabis’ vision of building <a href="https://www.youtube.com/watch?v=rbsqaJwpu6A" target="_blank" title="watch Demis Hassabis' talk"><span>AI scientists</span>.</a></p>
@@ -183,9 +189,14 @@ left a name worth remembering" - Theodore Roosevelt. -->
   <div id="learning">
    <h2>Lots of books and talking to people</h2>
    <hr/>
-   <p>..........COMING SOON...........Vestibulum et metus lectus. Nunc consectetur, ipsum in viverra eleifend, erat erat ultricies felis, at ultricies mi massa eu ligula. Suspendisse in justo dapibus metus sollicitudin ultrices id sed nisl. Aenean pharetra convallis pellentesque. Vestibulum et metus lectus. Nunc consectetur, ipsum in viverra eleifend, erat erat ultricies felis, at ultricies mi massa eu ligula. Suspendisse in justo dapibus metus sollicitudin ultrices id.</p>
-   <p>Aenean pharetra convallis pellentesque. Vestibulum et metus lectus. Nunc consectetur, ipsum in viverra eleifend, erat erat ultricies felis, at ultricies mi massa eu ligula. Suspendisse in justo dapibus metus sollicitudin ultrices id sed nisl. Aenean pharetra convallis pellentesque. Vestibulum et metus lectus. Nunc consectetur, ipsum in viverra eleifend, erat erat ultricies felis, at ultricies mi massa eu ligula. Suspendisse in justo dapibus metus sollicitudin ultrices id.</p>
-   <p>Aenean pharetra convallis pellentesque. Vestibulum et metus lectus. Nunc consectetur, ipsum in viverra eleifend, erat erat ultricies felis, at ultricies mi massa eu ligula. Suspendisse in justo dapibus metus sollicitudin ultrices id sed nisl. ultricies felis, at ultricies mi massa eu ligula. felis, at.</p>
+   <p>When telling others that I’m teaching myself to code, I use the term self-directed as opposed to self-taught because the latter would imply a level of autodidacticism akin to figures such as Ramanujan or John D. Carmack.</p>
+   <p>Although, I do think it's entirely possible to educate yourself on any subject. Don’t get me wrong, I was a really crappy student even at school. I didn’t think the antidote for my complacency would be to take on responsibility for my own learning without the structure and sequentiality that university provided.</p>
+   <p>My concept of what it means to get an education has changed profoundly. I liken it to the setup of a chemistry experiment along its apparatus. When you’re sitting in on a lecture, you’re only absorbing the distillation of knowledge from the passivity. Learning on your own is more comparable to the setting up of the apparatus and the fine-tuning of the experiment through trial and error, wherein you feel as though you’re receiving a truer form of education. <br> Yo, what Yeats spoke of.........apparently.</p>
+   <p>As venerable of a pursuit it is to teach yourself, it is challenging!</p>
+   <p>For programming and related, be resourceful in substituting the syllabus/semester routine of formal education through online courses, tutorials, books and importantly blogs from programmers and developers. <br> Developing the side-effect skill of finding, collating and assessing all the resources out there helps in choosing the most useful and relevant bits to begin learning. <br> For the social aspects of coding: pair programming, code reviews, mentorship and other support structures (that you'd otherwise have if you were at uni or bootcamp) then meetups, hackathons, developer events and volunteering in outreach are great too.</p>
+   <p>Normally, you’d assume that someone else who already knows about a topic would need to explain it to you as a beginner. When you're learning on your own, the only person to explain to you how something works is yourself so much so that it's almost recursive!</p>
+   <p>In the end, it has proved beneficial to curate my own study as its allowed me to gain a holistic albeit generalist understanding of programming. Learning how to learn takes some time.</p>
+   <p>Wander.</p>
   </div>
   <div id="partIandII">
    <a id="button1" href="#"><button>Part I</button></a>

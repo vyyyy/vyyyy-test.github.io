@@ -196,7 +196,6 @@ time {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .blog {
  width: 60%;
- height: auto;
  float: right;
  padding-left: 10px;
  margin-top: 50px;
@@ -213,16 +212,23 @@ hr {
  border: 1px solid #000;
 }
 
+#droppingout {
+ height: 600px;
+ max-height: 550px;
+ overflow-y: scroll;
+}
 /* learning part */
 #learning {
  display: none;
+ max-height: 550px;
+ overflow-y: scroll;
 }
 
 /* button */
 #partIandII button {
  width: 40%;
  height: auto;
- padding: .4rem;
+ padding: .5rem;
  margin: 1rem auto;
  margin-left: 20px;
  font-family: 'Raleway', sans-serif;
