@@ -55,13 +55,16 @@ span {
 }
 
 /* links */
-a:link, a:visited, a:hover, a:active {
+a:link, a:visited, a:active {
  font-size: 1rem;
  font-family: 'Raleway', sans-serif;
  letter-spacing: .05rem;
  line-height: 140%;
  text-decoration: none;
  color: #fff;
+}
+a:hover {
+ color: #c0e1f0;
 }
 
 /* background image */
@@ -97,6 +100,34 @@ img {
 
 .twitter {
  margin-left: 10px;
+}
+
+/* about button for mobile and tablet view
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.btn-about {
+ position: absolute;
+ top: 58px;
+ left: 150px;
+ display: none;
+ width:45px;
+ height:45px;
+ border-radius:50%;
+ background:#000
+}
+
+#abouttext {
+ position: relative;
+ color:#fff;
+ font-size:.7rem;
+ text-align:center;
+ font-family: 'Raleway', sans-serif;
+ transform: translate(0,10px);
+}
+
+.btn-about:hover {
+ color:#ccc;
+ text-decoration:none;
+ background:#333
 }
 
 /* TIMELINE
@@ -272,6 +303,14 @@ hr {
  #year2014text {
   transform:translate(-105px, 117px);
  }
+ .githubtwitter {
+  top: 58px;
+  left: 200px;
+  margin-left: 20px;
+ }
+ .btn-about {
+  display: block;
+ }
 }
 
 @media screen and (max-width: 768px) {
@@ -297,6 +336,14 @@ hr {
  }
  #year2014text {
   transform:translate(-105px, 117px);
+ }
+ .githubtwitter {
+  top: 58px;
+  left: 200px;
+  margin-left: 20px;
+ }
+ .btn-about {
+  display: block;
  }
 }
 
@@ -326,6 +373,7 @@ hr {
  .githubtwitter {
   top: 38px;
   left: 75px;
+  margin-left: 60px;
  }
  .twitter {
   margin-left: 0px;
@@ -335,5 +383,10 @@ hr {
  }
  #year2014text {
   transform:translate(-60px, 117px);
+ }
+ .btn-about {
+  display: block;
+  top: 38px;
+  left: 75px;
  }
 }
