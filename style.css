@@ -39,6 +39,12 @@ h2 {
  font-size: 1.35rem;
 }
 
+h4 {
+ color: #000;
+ font-size: 1.3rem;
+ text-decoration: underline;
+}
+
 p {
  margin-top: 20px;
  margin-left: 20px;
