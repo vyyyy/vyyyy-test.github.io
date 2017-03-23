@@ -255,6 +255,13 @@ span {
  display: inline-block;
 }
 
+#particle-canvas {
+  width: 50%;
+  height: 100%;
+  position: absolute !important;
+  display: none;
+}
+
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .wrapper-timeline {
