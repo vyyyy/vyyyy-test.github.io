@@ -262,7 +262,14 @@ span {
   width: 50%;
   height: 100%;
   position: absolute !important;
-  display: none;
+  visibility: hidden;
+}
+
+#particle-canvas.vis {
+  width: 50%;
+  height: 100%;
+  position: absolute !important;
+  visibility: visible;
 }
 
 /* TIMELINE
