@@ -239,13 +239,14 @@ span {
 .blog {
  width: 50%;
  height: 100%;
+ padding-top: 75px;
  float: left;
  position: absolute;
  font-family: 'Lato', sans-serif;
  color: #fff;
- background: #2b2827;
  display: none;
  text-align: justify;
+ background: rgba(255,255,255,0);
 }
 
 .blog.show {
@@ -253,6 +254,8 @@ span {
  height: 100%;
  position: absolute;
  display: inline-block;
+ background: rgba(255,255,255,0);
+ z-index: 2;
 }
 
 #particle-canvas {
